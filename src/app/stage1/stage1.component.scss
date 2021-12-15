@@ -1,0 +1,22 @@
+.stage1{
+  width: 100%;
+  @media screen and (min-aspect-ratio: 320/548) {
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+  }
+
+  @media screen and (max-aspect-ratio: 320/548) {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+  }
+
+}
+
+

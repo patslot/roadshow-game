@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "roadshow-game",
+  "private_key_id": "1e6aeb6049d96498cc344bbb5d801e44bb616ccc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDlEj6ozELntX3z\nfrpLDIGBnpQLeybPP8El3BBsXdf7VuN48uoWb0CjGWfuw2yhTjEPLdNVt8pPe4WT\nPs5t5n0N9z8N1fjKCy02bsuoZP/xaBSJITC+HHXM1lyLQ4t4nHFXudNSKwB3thuF\n2sFUbLJUPoTlbJqaNlpQXHOK936hEAyMG9W3HPXJ+HyO506Un1odXhta/TFYtyhy\n+77KT1GYiSQ4Cxl9zqnU98HZ3gBZ89l9wX/MbYhPRHxOSA6+pohi3Ed5OMWHa73Y\n/0IQDryA85Ois6gyGSzzK9HfImkNibiMbIoWzBgz6M6Uo2elFJEsz2ziNZhKVV1L\n+jGN6e19AgMBAAECggEACDpZidKcbJo2RfK9Wki+thsuEiOAR11w4J1A8cOFKH/8\nd7Gx+tBQMAuPkiHu2vRmCreIqcGKQMSdDabp30SyJThGSYbwAsHYA+aC5i+Kie9F\nHY/Vol5/VLY2aMIqVlC4OYBxOLhWsfYWkv5Ch3fICAKe32bBPtzI7a4EcG9nWv2Z\nLGSNsm1Ev8f05YFX98XYQflE9N3s8mfdwsM5XdQM0Y1vQnm7GBxv2L/MctuHTbPF\nQEDNQ/1ZufaI3FIynIim+Bf13kIYoHAukpa2ne6Pg1OYn+l17pYCj1CghH3Cfd2R\ndFH/z0gqB+lzBrFRc3sRi8Rx4MFO+eRb9W4CFioreQKBgQD8fF43q4qC5LIRpSN2\naW3pJGznVNrZrFBddIvG/uYUQJsGxKwKArNsyY+o2k1rzVPYltcLMFx/Fo43AV4q\n+6iURh2dtfKVTlwG7KZ0NFJZpKchUAeSNrPHc8dHZyrfkXg1vdP6eLsLDJDcNw60\n7PdNGDN/QZpYWolb7a5UkDtImwKBgQDoQnLJcGNXKJ+8wKGJT8D9R/JoNavS9gvb\n5AMz7Z9TyhdaJL7O5mLNHpXcPmzkdMzsPJsenDeQlR88EoIKLhVHxP2GgPCdIiK+\nq2QzXJYqii4AZ8K5GoFUY2xjobJ7Y0RDTvtK9wce+weWIRPr1dsInIyGLvD5jY7n\nSoHbO2zHxwKBgQDrQ8vbHdnMC+OtM25u6OCEjO95QwVGLR0ZZ/7S5zNmjaimzt3r\n2gZsiQh28yuPFt1ZBXzNrTuTJGZR9NFVRfgYaZkxGpg27bQss5iK0TIm25jsHpFf\ned9dK5H2A7jcZ8VWdlKuoo7PRd85g4gNqHzrdnCN1IhIadxyL2/w1hCXnwKBgQCW\nD7CoU9PrUVT7mB4GYKAZRS3qhJrSf6Qj20rydxnVAiJaXJlnhlTZoGRE25RxesGX\n9IRon5gK8z4uCus39pRLPYxsJczQSWjXdlcUFEL1kzerjV6zR9u9kUtLiAKQVA+b\nyWD1C2vvaVN6fT6oxhBxnOvyGkwZgIuPBoWmBtv+qwKBgH1c7SdP5XIzV4id2qB3\ncULt9EZilL0M97kJe598WZtucortcS8TqYVhukG6axxSra6PaLIcGuXCspzjDaCc\ngzggqbu3iA8shuW98Y8s5s/oZYcukDOG3lJ0MIantb4dgeT7UGE93aFdq5yP9AZJ\nduBkrjKqDijljazqX1Qc3ZHt\n-----END PRIVATE KEY-----\n",
+  "client_email": "roadshow@roadshow-game.iam.gserviceaccount.com",
+  "client_id": "105230962469659439248",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/roadshow%40roadshow-game.iam.gserviceaccount.com"
+}

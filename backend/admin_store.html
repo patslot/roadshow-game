@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Admin</title>
+		<!-- Bootstrap -->
+	    <script src="http://code.jquery.com/jquery.js"></script>
+	</head>
+	<body id="admin" onload="">
+	<table class = "table" width = "100%">
+	<thead>
+	<tr>
+		<th>No</th>
+		<th>Pharacy Shop</th>
+		<th>Quota</th>
+		<th>Sms Selected</th>
+		<th>Redeemed</th>
+	</tr>
+	</thead>
+	<tbody>
+	{% for store in stores %}
+	<tr>
+	<td align="center" >{{loop.index}}</td>				
+	<td align="center" >{{store.NAME}}</td>
+	<td align="center" >{{store.QUOTA}}</td>
+	<td align="center" >{{store.SELECTED}}</td>
+	<td align="center" >{{store.REDEEMED}}</td>
+	<tr>
+	{% endfor %}
+	<tbody>
+	</table>	
+	</body>
+</html>

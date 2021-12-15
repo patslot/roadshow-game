@@ -1,0 +1,26 @@
+<div class="gamecontainer">
+  <div class="content">
+    <img class="stage5_1" src="./assets/s5_1.png">
+    <form  (ngSubmit)="onClickSubmit(userinfo)" #userinfo="ngForm">
+      <div class="form-group">
+        <label for="name">參加者名稱 :</label>
+        <input id="name" name="name" type="name"  [(ngModel)]="userName" required />
+        <p *ngIf="userinfo.touched && userName==''">請輸入參加者名稱</p>
+      </div>
+      <div class="form-group">
+        <label for="company">公司名稱:</label>
+        <input id="company" name="company" type="company"  [(ngModel)]="userCompany" required />
+        <p *ngIf="userinfo.touched && userCompany==''" >請輸入公司名稱</p>
+      </div>
+      <div style="
+      text-align: center;">
+        <button
+          type="submit"
+          [disabled]="userinfo.invalid || formprocessing"
+        >
+          <img class="stage2_3 btnconfirm" src="./assets/btn_done.jpg">
+        </button>
+    </div>
+    </form>
+  </div>
+</div>

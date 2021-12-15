@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "roadshow-game",
+  "private_key_id": "a0ec057b9719ff84512b8dc9b0b325ea648c9f38",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCYPCMzNPAJKjhq\n+8NRDTaKLuaFJt8TfaWHAM8TGul4wZcV29CLPQ+uL/qv0VrEIEDuNGfd9ljkOKlE\nUMdiDUSaepUaTRE4Qrkyq//9V5BHQ+6FruVNDgM3+XOOyIx0MWiAn0C4mHD4VBVx\n0O4C7tbSmlrXfoHyEZtbC3J2tPZZ4pwemAr1ToxkRqHOm/KpwLy8SiKeReeEWqKN\nxNUAVndI0+/vvdX0Jtuwsy/yRO26BcKgTyHEK/pRrd+nqSm866rSicuTsEuTp28Z\nARZTUl2sumVMr/b2pv8dU0YWigm59Bh3aZ1a9Ur98E5Nufpd1k0W8n56OMaL9riy\nQBHIX7GDAgMBAAECggEAHlTBCKdP+et9ESe3OxNgXfjJOhdME+SRUcwh9eMDSGl9\n0j+ZFdzlHmX10wjpxjDM7wjm9uzpuhLl+rQDfbA6DnNE+NgJCcYVgxiM6OuE1gYd\nZGo7ynXzwzfCw9yGS3I6qYHRUdYhkACkwygG+/OdPpm9ZrkQZ+wFIYcu16LngHHc\nyAz7rafWjPywUf2MfQ26LNfNKGgHfSmrUVWXfl8diBhgOTe2k2M1eXWFwYArsHvq\nFMsUU4+Dkk8lUn1IJBHT8pVu36OlXqFrN5WLJjSbvUZqZahSaJQwn5D8RbsFeVZ8\npHvwvcK3tuMR8mV3UOKB1QUnEmtMUiAm9amCofcDeQKBgQDLmhvAwjx9c/NauIYE\nGmaFg8ff6BQAHdfbOBmEdMU1RdM7lLySiNhCbWLwYkMlL1OYXZeRWCUpqlZNMszK\ngmqXDqu4xql5h2uv9WBpSvrIGkWqf+5IhaCwY+bjmF6HRNY8aj7IaX8zsyXwmG6S\nsQrsDWP/m3nNQj3lHPoIZs9CqwKBgQC/adEUXB1RVibsfsCv6wih4jIX45aIGou/\no65+fdnmAiRU2FM6hClNP6++L03H3MNPE2pYXenp8EVHCnqWKBDVuZYwvLll2VJi\nYBEKcEQtAgnEnGopJ6OUYMFFMqc8iXLKl92NTOmRgufqONwNBYrpX8NAnvY1NEOh\n5XiI7P8MiQKBgCzQUdV+q0PNtr28KbtTeEdg9yiAc46HAxD8axltfk64fML7fPof\n5sHQQ9u3NSJFJXg++XKDXUKrfG1nhg344K85CnEUQQ8/0GMddkgWudY7eiQKHo+V\n4gWRJ6vmyL+rViBcHk+McPQXNX2cf5IIJ+hHFkCXnxqfvvHkC+C3iF0bAoGATZdR\nX5VvdPcdVCSVazo1B5ovgCuLa6SHHan2I+RUHb6kh5ghNMk6DMxSKx/1wZyltzpB\nk4yOM3xoOMHwq0mWeWx/i0YVSUns8V/LyJV1rWD0ILTe+8vLrWwDLE+6Jvn4hFNH\nRe31iDyuUe22lbi3dJ6TAXDukOacu9XPJIIdaTECgYEAy4rpnrHBdfbI3+X4x+8q\nV8gSfE07c+oRPK1JkzmuW9tqVHUCVaRLkm6lFryH/gwCZtSQ0JY1Oa7XSC/slzKn\nHP8cvH/AfE2jHzKEvaqMXvsfOb84tSL2cn5hxGqc7paPopL2bRqQXqGagg1frEXh\nsirDJZ9gwlvwxiBnumd9LsM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "roadshow-game@appspot.gserviceaccount.com",
+  "client_id": "106662915293547358194",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/roadshow-game%40appspot.gserviceaccount.com"
+}

@@ -1,0 +1,18 @@
+<div class="gamecontainer">
+  <div class="content">
+     <img class="stage2_1" src="./assets/s2_1.png">
+    <a (click)="onClickModalActive()"><img class="stage2_2" src="./assets/s2_2.jpg"></a>
+  </div>
+  <div class="modalbox" *ngIf=showModal>
+    <div class="modalcontent" >
+      <p><b>請先登記閣下之公司電郵</b><br>
+        (每個登記電郵只限參加一次) </p>
+        <input id="email" name="email" type="email"  [(ngModel)]="userEmail" />
+
+        <p class="errormsg" *ngIf="emailDulpicated">每個電郵只可參加一次，多謝參加。</p>
+        <p class="errormsg" *ngIf="emailWrong">請輸入正確電郵</p>
+        <a (click)="onClickNextStage()"><img class="stage2_3 btnconfirm" src="./assets/btn_confirm.jpg"></a>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<div class="gamecontainer">
+  <div class="content">
+    <div class="popContainer" id="popContainer" #popContainer>
+    <img class="stage4_1" src="./assets/s4_1.png">
+      <div #pop1 class="appleContainer pop1" (click)="onPopClick($event)"></div>
+
+      <div #pop2 class="appleContainer pop2" (click)="onPopClick($event)"></div>
+
+      <div #pop3 class="appleContainer pop3" (click)="onPopClick($event)"></div>
+
+      <div #pop4 class="appleContainer pop4" (click)="onPopClick($event)"></div>
+
+      <div #pop5 class="appleContainer pop5" (click)="onPopClick($event)"></div>
+
+      <div #pop6 class="appleContainer pop6" (click)="onPopClick($event)"></div>
+
+      <div #pop7 class="appleContainer pop7" (click)="onPopClick($event)"></div>
+
+      <div #pop8 class="appleContainer pop8" (click)="onPopClick($event)"></div>
+    </div>
+    <div class="modalbox" *ngIf=showModal>
+      <div class="modalcontent" >
+        <img class="prize-img" src="./assets/prize_0.png" *ngIf="prize=='0'"/>
+        <img class="prize-img" src="./assets/prize_100.png" *ngIf="prize=='100'"/>
+        <img class="prize-img" src="./assets/prize_200.png" *ngIf="prize=='200'"/>
+        <img class="prize-img" src="./assets/prize_300.png" *ngIf="prize=='300'"/>
+        <a (click)="onClickNextStage()" *ngIf="prize!='0'"><img class="stage4_2 btnconfirm" src="./assets/btn_confirm.jpg"></a>
+      </div>
+  </div>
+  </div>
+</div>

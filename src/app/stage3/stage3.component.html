@@ -1,0 +1,30 @@
+<div class="gamecontainer">
+  <div class="content">
+
+    <img class="stage3_1" src="./assets/s3_1.png">
+
+    <form (ngSubmit)="onClickSubmitAnswer(question)" #question="ngForm"  *ngIf="!wrong">
+      <div class="form-group">
+          <input type="radio" id="a1" name="question" value="1" ngModel required>
+          <label for="a1" (click)="onSetOption('a')"><img [src]="option=='a' ? optionAON : optionA" /></label><br>
+          <input type="radio" id="a2" name="question" value="2" ngModel required>
+          <label for="a2" (click)="onSetOption('b')"><img [src]="option=='b' ? optionBON : optionB" /></label><br>
+          <input type="radio" id="a3" name="question" value="3" ngModel required>
+          <label for="a3" (click)="onSetOption('c')"><img [src]="option=='c' ? optionCON : optionC" /></label><br>
+          <input type="radio" id="a4" name="question" value="4" ngModel required>
+          <label for="a4" (click)="onSetOption('d')"><img [src]="option=='d' ? optionDON : optionD" /></label><br>
+          <input type="radio" id="a5" name="question" value="5" ngModel required>
+          <label for="a5" (click)="onSetOption('e')"><img [src]="option=='e' ? optionEON : optionE" /></label><br>
+          <button
+            type="submit"
+           ><img src="./assets/btn_confirm.jpg" /></button>
+      </div>
+
+  </form>
+    <div class="modalbox" *ngIf="wrong">
+      <div class="modalcontent" >
+        <img class="prize-img" src="./assets/s3_wrong.png" />
+      </div>
+    </div>
+  </div>
+</div>

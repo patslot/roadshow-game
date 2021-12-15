@@ -1,0 +1,61 @@
+.stage5_1{
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  width: 100%;
+  @media screen and (min-aspect-ratio: 320/548) {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+  }
+
+  @media screen and (max-aspect-ratio: 320/548) {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+  }
+
+}
+form{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  margin: 0 auto;
+}
+.form-group{
+  margin: 10px;
+  margin-bottom: 50px;
+  label{
+    color: #2D6BA9;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-bottom: 0;
+  }
+  input{
+    margin-top: 0 ;
+    margin-bottom: 0;
+    border: 1px #004C88 solid ;
+  }
+  p{
+    color: red;
+    width: 100%;
+    text-align: right;
+  }
+
+
+}
+button{
+  background: none;
+  border: none;
+
+}
+button:disabled {
+  .btnconfirm{
+    opacity: 0.5;
+  }
+}

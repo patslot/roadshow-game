@@ -1,0 +1,67 @@
+.stage3_1{
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  width: 100%;
+  @media screen and (min-aspect-ratio: 320/548) {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+  }
+
+  @media screen and (max-aspect-ratio: 320/548) {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+  }
+
+}
+.form-group{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 30vh;
+  input {
+    display: none;
+  }
+  button {
+    border: none;
+    width: 30%;
+     img{
+       width: 100%;
+     }
+     @media screen and (min-aspect-ratio: 320/548) {
+      width: 100px;
+    }
+  }
+}
+
+label>img{
+  width: 80%;
+  margin: 0 auto;
+  @media screen and (min-aspect-ratio: 320/548) {
+    width: 300px;
+  }
+}
+
+
+.modal-content{
+  .prize-img{
+    display: block;
+    width: 100%;
+    @media screen and (min-aspect-ratio: 320/548) {
+      width: 300px;
+      margin: 0 auto;
+    }
+  }
+}
+.prize-img{
+  width: 100%;
+  max-width: 300px;
+  display: block;
+}
